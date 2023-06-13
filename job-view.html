@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+
+</head>
+
+<body>
+    <!-- ---------------Navbar--------------- -->
+    <div class="container-fluid  bg-color">
+        <div class="container">
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class=" text-white"><i class="fa-solid fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        id="findfreelancer">
+                                        Find Freelancer
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        id="togglefindTalentDiv">
+                                        Find Talent
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="help.html">Help</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex align-items-center" role="search">
+                                <div class="input-group">
+                                    <button class="search-btn-purple" type="button" id=""><img src="img/search-icon.svg"
+                                            class="search-icon me-2" alt="">
+                                    </button>
+                                    <input type="text" class="form-control search-purple"
+                                        placeholder="Search freelancer and individual here..." aria-describedby="">
+                                </div>
+                                <div class="d-flex">
+                                    <div>
+                                        <a href="message.html"><img src="img/messages.svg" class="pixel1 ms-5" alt=""></a>
+                                    </div>
+                                    <div>
+                                       <a href="fav-screens.html"><img src="img/Heart.svg" class="pixel1 ms-5" alt=""></a>
+                                    </div>
+                                    <div>
+                                       <a href="notification.html"><img src="img/notification-bing.svg" class="pixel1 ms-5" alt=""></a>
+                                    </div>
+                                    <div>
+                                        <img src="img/profile-circle.svg" class="pixel1 ms-5" alt="">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <!-- Second navbar starts -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav second-navbar">
+                        <li class="nav-item text-dark">
+                            <a class="nav-link " aria-current="page" href="main-dashboard.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item text-dark">
+                            <a class="nav-link active" href="start a job.html">Jobs</a>
+                        </li>
+                        <li class="nav-item text-dark">
+                            <a class="nav-link" href="applicants.html">Applicants</a>
+                        </li>
+                        <li class="nav-item text-dark">
+                            <a class="nav-link" href="individuals.html">Individuals</a>
+                        </li>
+                        <li class="nav-item text-dark">
+                            <a class="nav-link" href="freelancer.html">Freelancers</a>
+                        </li>
+                        <li class="nav-item text-dark">
+                            <a class="nav-link" href="settings.html">Settings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Second navbar ends -->
+    <div class="container">
+        <div class="row justify-content-center pt-5">
+            <div class="col-lg-8 col-md-8 col-12">
+                <h3 class="font-Bold-Ivy font-37">Job Post</h3>
+                <p class="font-Helvetica font-12">Hello Zeta Kevin</p>
+                <div class="card dash-card bg-color2 border-help justify-content-center mt-5">
+                    <div class="d-flex align-items-center p-4 mt-4">
+                        <div class="align-self-baseline">
+                            <img src="img/nexa.svg" class="w-75" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-Bold-Ivy font-35 mb-0 ">Web Designer</h3>
+                            <p class="font-Helvetica font-14 weight-400  mb-2" style="color: #404040;">Nexa - Digital
+                                Marketing</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-lg-8 col-md-10 col-12">
+                            <div class="d-flex ms-4 flex-lg-nowrap flex-md-nowrap flex-wrap ">
+                                <img src="img/Briefcase Portfolio.svg" alt="">
+                                <h6 class="font-Helvetica font-12 purple mt-3 ms-2">Full Time</h6>
+                                <div class="d-flex ms-4">
+                                    <img src="img/Briefcase Portfolio.svg" alt="">
+                                    <h6 class="font-Helvetica font-12 purple mt-3 ms-2">Remote</h6>
+                                </div>
+                                <div class="d-flex ms-4">
+                                    <img src="img/Briefcase Portfolio.svg" alt="">
+                                    <h6 class="font-Helvetica font-12 purple mt-3 ms-2">Urgent Hiring</h6>
+                                </div>
+                                <div class="d-flex ms-4">
+                                    <img src="img/Briefcase Portfolio.svg" alt="">
+                                    <h6 class="font-Helvetica font-12 purple mt-3 ms-2">Salary <span class="text-dark">
+                                            $5k-10k</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 text-end">
+                            <p class="font-Helvetica font-12 mb-2 mt-2 me-4 flex-lg-nowrap flex-md-nowrap flex-wrap " style="color: #404040;">Posted 2hr ago</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="font-Helvetica font-12 p-4 mb-0">Nexa is looking for a highly creative and experienced UI
+                        Designer to join our team. If you have a
+                        proven track record in designing websites for clients using tools like Figma, Adobe XD and
+                        Photoshop then apply now! <br><br>
+                        You are someone who has an eye for detail and a knack for converting briefs using brand
+                        guidelines into beautiful designs. You have a strong portfolio and have designed a minimum of
+                        100 websites in your career. You are comfortable in presenting your designs and creative vision
+                        in front of the management and to clients. </p>
+                    <p class="font-12 font-Helvetica ms-4 mb-0">You are someone who:</p>
+                    <ul class="font-Helvetica font-12 ms-3 mb-0">
+                        <li> Has a high performing / design laptop</li>
+                        <li> You have a stable wifi connection</li>
+                        <li> You are willing to do a full-time remote role from 9am - 6pm (GST)</li>
+                        <li> You have a portfolio link on your CV</li>
+                    </ul>
+                    <p class=" font-Helvetica font-12 p-4 mb-0"> As a part of Nexa, you will have the opportunity to
+                        work on diverse projects from different
+                        industries. You will work alongside highly experienced people in a fun and rewarding
+                        environment. <br>
+                    <p class="font-12 font-Helvetica ms-4 mb-0">About Nexa:</p>
+                    <p class="font-12 font-Helvetica ms-4 mb-0"> Award winning Growth Agency established in 2005 with
+                        offices in the UAE, USA, UK & AUS. Founding member of the Digital Transformation Group (DXG) a
+                        strategic global alliance of 4 experienced
+                        HubSpot Solutions Partners with over 200 in-house </p>
+                    <p class="font-Helvetica font-12 ms-4 mb-0">experts</p>
+                    <br>
+                    <p class="font-12 font-Helvetica ms-4 mb-0"> At Nexa, we design and develop any website for business
+                        including:</p>
+                    <ul class="font-12 font-Helvetica ms-4 mb-0">
+                        <li>Corporate / Informational based</li>
+                        <li>Corporate / Lead generation based</li>
+                        <li>eCommerce</li>
+                        <li>Portals / Directories</li>
+                        <li>Portfolio</li>
+                        <li> Blogs / Landing Pages</li>
+                    </ul>
+                    <div>
+                        <button type="button" class="apply-boton mt-5 mb-5 font-12 ms-5">Apply Now</button>
+                        <button type="button" class="save-boton mt-5 mb-5 font-12 ms-3">Save for
+                            Later</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 col-12 mt-5 pt-4">
+                <div class="card  dash-card mt-5 bg-color4 border-0">
+                    <div class="d-flex justify-content-between p-4">
+                        <div>
+                            <h3 class="font-Helvetica weight-700 font-18 purple mt-2">About jeanholly42</h3>
+                        </div>
+                        <div>
+                            <button type="button" class="profile-boton font-12 mb-2">View
+                                Profile</button>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex ms-4">
+                            <img src="img/Briefcase Portfolio.svg" alt="">
+                            <h6 class="font-Helvetica font-12 purple mt-3 ms-2">Marketing & Advertising</h6>
+                        </div>
+                        <div class="d-flex ms-4">
+                            <img src="img/Briefcase Portfolio.svg" alt="">
+                            <h6 class="font-Helvetica font-12 purple mt-3 ms-2">51-200 employees</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="font-Helvetica weight-700 font-10 p-4 mb-0 text-start" style="color: #303030;">Since
+                            2005; we have been driving
+                            growth for hundreds of high profile clients throughout the region, and have since expanded
+                            our business on a global scale. Through digital marketing and growth marketing strategies,
+                            we help companies realize their true potential in a frictionless and innovative environment,
+                            where Sales, Marketing & Customer Service work together to increase sales and retain
+                            customers... <span class="weight-700" style="color: #7C2342;"> Learn More</span></p>
+                    </div>
+                    <div class="d-flex justify-content-between ">
+                        <div class="font-14 ms-4 font-Helvetica weight-700">
+                            From
+                        </div>
+                        <div class="font-Helvetica font-14 me-4">
+                            United Kingdom
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between p-4 mb-0">
+                        <div class="font-14 font-Helvetica weight-700">
+                            English
+                        </div>
+                        <div class="font-Helvetica font-14 ">
+                            Fluent
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4">
+                        <div class="font-14 font-Helvetica weight-700 ms-4">
+                            Rating
+                        </div>
+                        <div class="me-4">
+                            <i class="fa-solid fa-star fa-xs yellow"></i><span
+                                class="font-Helvetica weight-700 font-11  ms-2">5(5)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card dash-card p-4 mt-4">
+                    <h3 class="font-Helvetica weight-700 font-22 purple text-start ">Company’s Reviews</h3>
+                    <div class="d-flex mb-5 mt-4">
+                        <div class="align-self-baseline">
+                            <img src="img/job-posting.svg" class="ball" alt="">
+                        </div>
+                        <div class="ps-3 p-2">
+                            <h3 class="font-Helvetica weight-700 font-18  mb-0 purple">jhanaichasseau</h3>
+                            <div class="d-flex">
+                                <div>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i><span
+                                        class="font-Helvetica weight-700 font-11  ms-2 me-3">5(5)</span>
+                                </div>
+                                <div>
+                                    <p class="font-Helvetica font-12 pt-1 left-bor"> 1 month ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex mb-5">
+                        <div class="align-self-baseline">
+                            <img src="img/job-posting.svg" class="ball" alt="">
+                        </div>
+                        <div class="ps-3 p-2">
+                            <h3 class="font-Helvetica weight-700 font-18  mb-0 purple">jhanaichasseau</h3>
+                            <div class="d-flex">
+                                <div>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i>
+                                    <i class="fa-solid fa-star fa-xs yellow"></i><span
+                                        class="font-Helvetica weight-700 font-11  ms-2 me-3">5(5)</span>
+                                </div>
+                                <div>
+                                    <p class="font-Helvetica font-12 pt-1 left-bor"> 1 month ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" class="profile-boton mt-3 font-12 ms-3">View all</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card job-card mt-4 p-4">
+                    <div class="row">
+                        <h3 class="font-Bold-Ivy font-32">Applicants Applied</h3>
+                        <div class=" col-lg-8 col-md-8 col-12 card job-card mt-4 w-75 p-4">
+                            <div class="d-flex justify-content-between ">
+                                <div class="d-flex align-items-center">
+                                    <div class="align-self-baseline">
+                                        <img src="img/freelancer.svg" class="ball" alt="">
+                                    </div>
+                                    <div class="ps-3 p-2">
+                                        <h3 class="font-Helvetica weight-700 font-19  mb-0 ">Applicant Name</h3>
+                                        <div class="d-flex mt-1">
+                                            <p class="font-Helvetica font-14 mb-2" style="color: #404040;">Applied . 1 day
+                                                ago
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="img/dots.svg" class="w-75" alt="">
+                                </div>
+                            </div>
+                            <p class="font-Helvetica font-12 text-secondary mb-0">Sed ut perspiciatis unde omnis ie natus
+                                error sit voluptatem accn. Sed ut punde otis ie natus error sit voluptatem accn. Sed ut
+                                perspiciatis unde omnis ie naterror. Sed ut perspiciatis unde omnis ie natus error sit
+                                voluptatem accn. Sed ut punde otis ie natus error sit voluptatem accn. Sed ut
+                                perspiciatis unde omnis ie naterror...</p>
+                            <div>
+                                <button type="button" class="apply-boton mt-4 font-12 ">View Resume</button>
+                                <button type="button" class="save-boton mt-4  font-12 ms-3">Delete
+                                    Application</button>
+                            </div>
+                        </div>
+                        <div class=" col-lg-8 col-md-8 col-12 card job-card mt-4 w-75 p-4 mb-4">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <div class="align-self-baseline">
+                                        <img src="img/freelancer.svg" class="ball" alt="">
+                                    </div>
+                                    <div class="ps-3 p-2">
+                                        <h3 class="font-Helvetica weight-700 font-19  mb-0 ">Applicant Name</h3>
+                                        <div class="d-flex mt-1">
+                                            <p class="font-Helvetica font-14 mb-2" style="color: #404040;">Applied . 1 day
+                                                ago
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="img/dots.svg" class="w-75" alt="">
+                                </div>
+                            </div>
+                            <p class="font-Helvetica font-12 text-secondary ">Sed ut perspiciatis unde omnis ie natus
+                                error sit voluptatem accn. Sed ut punde otis ie natus error sit voluptatem accn. Sed ut
+                                perspiciatis unde omnis ie naterror. Sed ut perspiciatis unde omnis ie natus error sit
+                                voluptatem accn. Sed ut punde otis ie natus error sit voluptatem accn. Sed ut
+                                perspiciatis unde omnis ie naterror...</p>
+                            <div>
+                                <button type="button" class="apply-boton mt-4 font-12 ">View Resume</button>
+                                <button type="button" class="save-boton mt-4  font-12 ms-3">Delete
+                                    Application</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------footer------ -->
+        <div class="container-fluid bg-color3">
+            <div class="container ">
+                <div class="row  mt-5">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 gray  mt-5">
+                        <h5 class="font-Bold-Ivy">Services</h5>
+                        <div class="font-Helvetica font-14 mt-4">
+                            <p>Graphics & Design</p>
+                            <p>Digital Marketing</p>
+                            <p>Writing & Translation </p>
+                            <p>Video & Animation</p>
+                            <p>Music & Audio</p>
+                            <p> Programming & Tech</p>
+                            <p>Data</p>
+                            <p>Business</p>
+                            <p>Lifestyle</p>
+                            <p>Photograpghy</p>
+                            <p>End-to-End Projects </p>
+                            <p>Sitemap</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 gray mt-5 ">
+                        <h5 class="font-Bold-Ivy">About</h5>
+                        <div class="font-Helvetica mt-4 font-14">
+                            <p>Careers</p>
+                            <p>Press & News</p>
+                            <p>Partnerships</p>
+                            <p>Privacy Policy</p>
+                            <p>Terms of Service</p>
+                            <p>Intellectual Property</p>
+                            <p>Claims</p>
+                            <p>Investor Relations</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 gray mt-5">
+                        <h5 class="font-Bold-Ivy">Company</h5>
+                        <div class="font-Helvetica font-14 mt-4 ms-2">
+                            <p>Find Freelancers </p>
+                            <p>Find Talent</p>
+                            <p>Why Medulla</p>
+                            <p>Signup</p>
+                            <p>Signin</p>
+                            <p>Try for free</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 gray mt-5 position-relative">
+                        <div class="mb-auto">
+                            <h5 class="font-regular ms-3">SIGN UP CONNECT WITH OUR NEWS LETTER</h5>
+                            <p class="gray ms-3">We respect your privacy, so we never share your info.</p>
+                            <div class="input-group mb-3 ms-3">
+                                <input type="text" class="form-control border-0" placeholder="Enter your email"
+                                    aria-label="Recipient's username" aria-describedby="button-addon3"
+                                    style="height: 55px;">
+                                <button class="btn btn-outline-secondary border-0" type="button"
+                                    id="button-addon3"><span><img src="img/arrow-down.svg" alt=""></span></button>
+                            </div>
+                            <div class="ms-3">
+                                <i class="fa-brands fa-facebook-f purple-box"></i>
+                                <i class="fa-brands fa-instagram purple-box"></i>
+                                <i class="fa-brands fa-linkedin-in purple-box"></i>
+                                <i class="fa-brands fa-twitter purple-box"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex foot ">
+                            <img src="img/medulla pic.svg" class="" alt="">
+                            <p class="font-Helvetica font-14 mt-5">© Medulla International Ltd. 2023 | All Rights
+                                Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

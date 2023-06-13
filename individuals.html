@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- -------slick-css------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- -------theme-css------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- ----link css----- -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ---------------Navbar--------------- -->
+    <div class="container-fluid bg-color">
+      <div class="container">
+        <header>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"
+                ><img src="img/logo.svg" alt=""
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="text-white"><i class="fa-solid fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-white"
+                      href="index.html"
+                      role="button"
+                      id="findfreelancer"
+                    >
+                      Find Freelancer
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-white"
+                      href="index.html"
+                      role="button"
+                      id="togglefindTalentDiv"
+                    >
+                      Find Talent
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="help.html">Help</a>
+                  </li>
+                </ul>
+                <form class="d-flex align-items-center" role="search">
+                  <div class="input-group">
+                    <button class="search-btn-purple" type="button" id="">
+                      <img
+                        src="img/search-icon.svg"
+                        class="search-icon me-2"
+                        alt=""
+                      />
+                    </button>
+                    <input
+                      type="text"
+                      class="form-control search-purple"
+                      placeholder="Search freelancer and individual here..."
+                      aria-describedby=""
+                    />
+                  </div>
+                  <div class="d-flex">
+                    <div>
+                      <a href="message.html"
+                        ><img src="img/messages.svg" class="pixel1 ms-5" alt=""
+                      /></a>
+                    </div>
+                    <div>
+                      <a href="fav-screens.html"
+                        ><img src="img/Heart.svg" class="pixel1 ms-5" alt=""
+                      /></a>
+                    </div>
+                    <div>
+                      <a href="notification.html"
+                        ><img
+                          src="img/notification-bing.svg"
+                          class="pixel1 ms-5"
+                          alt=""
+                      /></a>
+                    </div>
+                    <div>
+                      <img
+                        src="img/profile-circle.svg"
+                        class="pixel1 ms-5"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <!-- Second navbar starts -->
+    <div class="container-fluid bg-color2">
+      <div class="container pb-5">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse d-flex justify-content-center"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav second-navbar">
+                <li class="nav-item text-dark">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="main-dashboard.html"
+                    >Dashboard</a
+                  >
+                </li>
+                <li class="nav-item text-dark">
+                  <a class="nav-link" href="start a job.html">Jobs</a>
+                </li>
+                <li class="nav-item text-dark">
+                  <a class="nav-link" href="applicants.html">Applicants</a>
+                </li>
+                <li class="nav-item text-dark">
+                  <a class="nav-link active" href="individuals.html"
+                    >Individuals</a
+                  >
+                </li>
+                <li class="nav-item text-dark">
+                  <a class="nav-link" href="freelancer.html">Freelancers</a>
+                </li>
+                <li class="nav-item text-dark">
+                  <a class="nav-link" href="settings.html">Settings</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Second navbar ends -->
+    <div class="container">
+      <div class="row justify-content-center input-position">
+        <div class="input-group input-shadow">
+          <button
+            class="border-0 b-radius"
+            style="background-color: white"
+            type="button"
+            id=""
+          >
+            <img
+              src="img/Search-prple.svg"
+              class="search-icon me-2 purple"
+              alt=""
+            />
+          </button>
+          <input
+            type="text"
+            class="form-control font-14 font-Helvetica border-0"
+            placeholder="Do work with individual on job bases"
+            aria-describedby=""
+            style="height: 70px"
+          />
+          <div class="p-3 searchbarButtons">
+            <div class="text-secondary">
+              <img src="img/Location11.svg" alt="" /><span
+                class="font-Helvetica font-15 me-5"
+                >Any Location</span
+              >
+              <button
+                type="button"
+                class="apply-boton font-12"
+                onclick="searchFilter()"
+              >
+                Filter
+              </button>
+            </div>
+          </div>
+          <!-- ----------modal----- -->
+          <div class="filterContainer">
+            <hr />
+            <div class="row" style="z-index: 9999">
+              <div class="col-lg-10 col-md-12 col-sm-12">
+                <h3 class="font-Bold-Ivy font-36">Advance Search</h3>
+                <p class="font-Helvetica font-19">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis.
+                </p>
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>
+                        <i class="fa-regular fa-user"></i> Location
+                      </option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Location</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <button type="button" class="apply-boton mt-4 font-12">
+                    Save
+                  </button>
+                  <button type="button" class="save-boton mt-4 font-12 ms-3">
+                    Clear all
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ps-5">
+      <div style="overflow-x: scroll !important">
+        <div class="d-inline-flex">
+          <button type="button" class="purple tab-btn">
+            Design & Creative
+          </button>
+          <button type="button" class="purple tab-btn">
+            Sales & Marketing
+          </button>
+          <button type="button" class="purple tab-btn">UX/UI Design</button>
+          <button type="button" class="purple tab-btn">
+            Design & Creative
+          </button>
+          <button type="button" class="purple tab-btn">
+            Sales & Marketing
+          </button>
+          <button type="button" class="purple tab-btn">UX/UI Design</button>
+          <button type="button" class="purple tab-btn">
+            Design & Creative
+          </button>
+          <button type="button" class="purple tab-btn">
+            Sales & Marketing
+          </button>
+          <button type="button" class="purple tab-btn">UX/UI Design</button>
+          <button type="button" class="purple tab-btn">
+            Design & Creative
+          </button>
+          <button type="button" class="purple tab-btn">
+            Sales & Marketing
+          </button>
+          <button type="button" class="purple tab-btn">UX/UI Design</button>
+          <button type="button" class="purple tab-btn">
+            Design & Creative
+          </button>
+          <button type="button" class="purple tab-btn">
+            Sales & Marketing
+          </button>
+          <button type="button" class="purple tab-btn">UX/UI Design</button>
+          <button type="button" class="purple tab-btn">
+            Design & Creative
+          </button>
+          <button type="button" class="purple tab-btn">
+            Sales & Marketing
+          </button>
+          <button type="button" class="purple tab-btn">UX/UI Design</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center pt-5">
+        <div class="col-lg-3 col-md-6 col-sm-10 col-12 mt-2">
+          <div
+            class="card align-items-center p-4 b-radius"
+            style="background-color: #fafafa"
+          >
+            <h3 class="font-42 font-Bold-Ivy p-4 pb-5">Hi , Ali</h3>
+            <div class="p-4 mt-4">
+              <p class="font-Helvetica font-13 mb-0">
+                Get matched with the individual
+              </p>
+              <p class="font-Helvetica font-13">for your project.</p>
+            </div>
+            <button type="button" class="btn-purple font-12 w-50 mt-5 mb-5">
+              Post a request
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-10 col-12 mt-2">
+          <div class="card b-radius p-1">
+            <img
+              src="img/bg-circle2.svg"
+              class="bg-color2 b-radius"
+              alt="..."
+            />
+            <img src="img/jaffari.svg" class="card-circle" alt="" />
+            <div class="text-center mt-5">
+              <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                Haider Jaffri
+              </h3>
+              <img src="img/teacher.svg" alt="" /><span
+                class="font-Helvetica font-12 ms-2"
+              >
+                UX/UI Designer</span
+              >
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <div>
+                <img src="img/Location.svg" alt="" /><span
+                  class="font-Helvetica ms-2 font-15"
+                  >Barcelona</span
+                >
+              </div>
+              <div>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-15 ms-2"
+                >
+                  3+ Years</span
+                >
+              </div>
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <div>
+                <img src="img/Star.svg" alt="" /><span
+                  class="font-Helvetica ms-2 font-12 yellow"
+                  >5.0</span
+                ><span class="font-Helvetica font-14"> (12)</span>
+              </div>
+              <div>
+                <img src="img/briefcase.svg" alt="" /><span
+                  class="font-Helvetica font-15 ms-2"
+                >
+                  3+ Years</span
+                >
+              </div>
+            </div>
+            <div class="d-flex align-items-center mt-3 mb-2 p-2">
+              <button class="btn-purple w-75">Hire</button>
+              <button type="button" class="save-boton font-12 ms-3">
+                <div class="con-like">
+                  <input title="like" type="checkbox" class="like" />
+                  <div class="checkmark">
+                    <svg
+                      viewBox="0 0 24 24"
+                      class="outline"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                      ></path>
+                    </svg>
+                    <svg
+                      viewBox="0 0 24 24"
+                      class="filled"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="celebrate"
+                      width="100"
+                      height="100"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <polygon points="10,10 20,20" class="poly"></polygon>
+                      <polygon points="10,50 20,50" class="poly"></polygon>
+                      <polygon points="20,80 30,70" class="poly"></polygon>
+                      <polygon points="90,10 80,20" class="poly"></polygon>
+                      <polygon points="90,50 80,50" class="poly"></polygon>
+                      <polygon points="80,80 70,70" class="poly"></polygon>
+                    </svg>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-10 col-12 mt-2">
+          <div class="card b-radius p-1">
+            <img
+              src="img/bg-circle3.svg"
+              class="bg-color2 b-radius"
+              alt="..."
+            />
+            <img src="img/jaffari.svg" class="card-circle" alt="" />
+            <div class="text-center mt-5">
+              <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                Haider Jaffri
+              </h3>
+              <img src="img/teacher.svg" alt="" /><span
+                class="font-Helvetica font-12 ms-2"
+              >
+                UX/UI Designer</span
+              >
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <div>
+                <img src="img/Location.svg" alt="" /><span
+                  class="font-Helvetica ms-2 font-15"
+                  >Barcelona</span
+                >
+              </div>
+              <div>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-15 ms-2"
+                >
+                  3+ Years</span
+                >
+              </div>
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <div>
+                <img src="img/Star.svg" alt="" /><span
+                  class="font-Helvetica ms-2 font-12 yellow"
+                  >5.0</span
+                ><span class="font-Helvetica font-14"> (12)</span>
+              </div>
+              <div>
+                <img src="img/briefcase.svg" alt="" /><span
+                  class="font-Helvetica font-15 ms-2"
+                >
+                  3+ Years</span
+                >
+              </div>
+            </div>
+            <div class="d-flex align-items-center mt-3 mb-2 p-2">
+              <button class="btn-purple w-75">Hire</button>
+              <button type="button" class="save-boton font-12 ms-3">
+                <div class="con-like">
+                  <input title="like" type="checkbox" class="like" />
+                  <div class="checkmark">
+                    <svg
+                      viewBox="0 0 24 24"
+                      class="outline"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                      ></path>
+                    </svg>
+                    <svg
+                      viewBox="0 0 24 24"
+                      class="filled"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="celebrate"
+                      width="100"
+                      height="100"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <polygon points="10,10 20,20" class="poly"></polygon>
+                      <polygon points="10,50 20,50" class="poly"></polygon>
+                      <polygon points="20,80 30,70" class="poly"></polygon>
+                      <polygon points="90,10 80,20" class="poly"></polygon>
+                      <polygon points="90,50 80,50" class="poly"></polygon>
+                      <polygon points="80,80 70,70" class="poly"></polygon>
+                    </svg>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-10 col-12 mt-2">
+          <div class="card b-radius p-1">
+            <img
+              src="img/bg-circle4.svg"
+              class="bg-color2 b-radius"
+              alt="..."
+            />
+            <img src="img/jaffari.svg" class="card-circle" alt="" />
+            <div class="text-center mt-5">
+              <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                Haider Jaffri
+              </h3>
+              <img src="img/teacher.svg" alt="" /><span
+                class="font-Helvetica font-12 ms-2"
+              >
+                UX/UI Designer</span
+              >
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <div>
+                <img src="img/Location.svg" alt="" /><span
+                  class="font-Helvetica ms-2 font-15"
+                  >Barcelona</span
+                >
+              </div>
+              <div>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-15 ms-2"
+                >
+                  3+ Years</span
+                >
+              </div>
+            </div>
+            <div class="d-flex justify-content-between p-3">
+              <div>
+                <img src="img/Star.svg" alt="" /><span
+                  class="font-Helvetica ms-2 font-12 yellow"
+                  >5.0</span
+                ><span class="font-Helvetica font-14"> (12)</span>
+              </div>
+              <div>
+                <img src="img/briefcase.svg" alt="" /><span
+                  class="font-Helvetica font-15 ms-2"
+                >
+                  3+ Years</span
+                >
+              </div>
+            </div>
+            <div class="d-flex align-items-center mt-3 mb-2 p-2">
+              <button class="btn-purple w-75">Hire</button>
+              <button type="button" class="save-boton font-12 ms-3">
+                <div class="con-like">
+                  <input title="like" type="checkbox" class="like" />
+                  <div class="checkmark">
+                    <svg
+                      viewBox="0 0 24 24"
+                      class="outline"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                      ></path>
+                    </svg>
+                    <svg
+                      viewBox="0 0 24 24"
+                      class="filled"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                      ></path>
+                    </svg>
+                    <svg
+                      class="celebrate"
+                      width="100"
+                      height="100"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <polygon points="10,10 20,20" class="poly"></polygon>
+                      <polygon points="10,50 20,50" class="poly"></polygon>
+                      <polygon points="20,80 30,70" class="poly"></polygon>
+                      <polygon points="90,10 80,20" class="poly"></polygon>
+                      <polygon points="90,50 80,50" class="poly"></polygon>
+                      <polygon points="80,80 70,70" class="poly"></polygon>
+                    </svg>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="row justify-content-center mt-5">
+          <div class="col-lg-3 col-md-8 col-sm-10 col-12 mt-2">
+            <div class="card b-radius p-1">
+              <img
+                src="img/bg-circle4.svg"
+                class="bg-color2 b-radius"
+                alt="..."
+              />
+              <img src="img/jaffari.svg" class="card-circle" alt="" />
+              <div class="text-center mt-5">
+                <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                  Haider Jaffri
+                </h3>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-12 ms-2"
+                >
+                  UX/UI Designer</span
+                >
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Location.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-15"
+                    >Barcelona</span
+                  >
+                </div>
+                <div>
+                  <img src="img/teacher.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Star.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-12 yellow"
+                    >5.0</span
+                  ><span class="font-Helvetica font-14"> (12)</span>
+                </div>
+                <div>
+                  <img src="img/briefcase.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex align-items-center mt-3 mb-2 p-2">
+                <button class="btn-purple w-75">Hire</button>
+                <button type="button" class="save-boton font-12 ms-3">
+                  <div class="con-like">
+                    <input title="like" type="checkbox" class="like" />
+                    <div class="checkmark">
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="outline"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="filled"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        class="celebrate"
+                        width="100"
+                        height="100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <polygon points="10,10 20,20" class="poly"></polygon>
+                        <polygon points="10,50 20,50" class="poly"></polygon>
+                        <polygon points="20,80 30,70" class="poly"></polygon>
+                        <polygon points="90,10 80,20" class="poly"></polygon>
+                        <polygon points="90,50 80,50" class="poly"></polygon>
+                        <polygon points="80,80 70,70" class="poly"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-8 col-sm-10 col-12 mt-2">
+            <div class="card b-radius p-1">
+              <img
+                src="img/bg-circle2.svg"
+                class="bg-color2 b-radius"
+                alt="..."
+              />
+              <img src="img/jaffari.svg" class="card-circle" alt="" />
+              <div class="text-center mt-5">
+                <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                  Haider Jaffri
+                </h3>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-12 ms-2"
+                >
+                  UX/UI Designer</span
+                >
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Location.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-15"
+                    >Barcelona</span
+                  >
+                </div>
+                <div>
+                  <img src="img/teacher.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Star.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-12 yellow"
+                    >5.0</span
+                  ><span class="font-Helvetica font-14"> (12)</span>
+                </div>
+                <div>
+                  <img src="img/briefcase.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex align-items-center mt-3 mb-2 p-2">
+                <button class="btn-purple w-75">Hire</button>
+                <button type="button" class="save-boton font-12 ms-3">
+                  <div class="con-like">
+                    <input title="like" type="checkbox" class="like" />
+                    <div class="checkmark">
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="outline"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="filled"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        class="celebrate"
+                        width="100"
+                        height="100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <polygon points="10,10 20,20" class="poly"></polygon>
+                        <polygon points="10,50 20,50" class="poly"></polygon>
+                        <polygon points="20,80 30,70" class="poly"></polygon>
+                        <polygon points="90,10 80,20" class="poly"></polygon>
+                        <polygon points="90,50 80,50" class="poly"></polygon>
+                        <polygon points="80,80 70,70" class="poly"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-8 col-sm-10 col-12 mt-2">
+            <div class="card b-radius p-1">
+              <img
+                src="img/bg-circle3.svg"
+                class="bg-color2 b-radius"
+                alt="..."
+              />
+              <img src="img/jaffari.svg" class="card-circle" alt="" />
+              <div class="text-center mt-5">
+                <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                  Haider Jaffri
+                </h3>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-12 ms-2"
+                >
+                  UX/UI Designer</span
+                >
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Location.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-15"
+                    >Barcelona</span
+                  >
+                </div>
+                <div>
+                  <img src="img/teacher.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Star.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-12 yellow"
+                    >5.0</span
+                  ><span class="font-Helvetica font-14"> (12)</span>
+                </div>
+                <div>
+                  <img src="img/briefcase.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex align-items-center mt-3 mb-2 p-2">
+                <button class="btn-purple w-75">Hire</button>
+                <button type="button" class="save-boton font-12 ms-3">
+                  <div class="con-like">
+                    <input title="like" type="checkbox" class="like" />
+                    <div class="checkmark">
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="outline"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="filled"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        class="celebrate"
+                        width="100"
+                        height="100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <polygon points="10,10 20,20" class="poly"></polygon>
+                        <polygon points="10,50 20,50" class="poly"></polygon>
+                        <polygon points="20,80 30,70" class="poly"></polygon>
+                        <polygon points="90,10 80,20" class="poly"></polygon>
+                        <polygon points="90,50 80,50" class="poly"></polygon>
+                        <polygon points="80,80 70,70" class="poly"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-8 col-sm-10 col-12 mt-2">
+            <div class="card b-radius p-1">
+              <img
+                src="img/bg-circle4.svg"
+                class="bg-color2 b-radius"
+                alt="..."
+              />
+              <img src="img/jaffari.svg" class="card-circle" alt="" />
+              <div class="text-center mt-5">
+                <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                  Haider Jaffri
+                </h3>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-12 ms-2"
+                >
+                  UX/UI Designer</span
+                >
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Location.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-15"
+                    >Barcelona</span
+                  >
+                </div>
+                <div>
+                  <img src="img/teacher.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Star.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-12 yellow"
+                    >5.0</span
+                  ><span class="font-Helvetica font-14"> (12)</span>
+                </div>
+                <div>
+                  <img src="img/briefcase.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex align-items-center mt-3 mb-2 p-2">
+                <button class="btn-purple w-75">Hire</button>
+                <button type="button" class="save-boton font-12 ms-3">
+                  <div class="con-like">
+                    <input title="like" type="checkbox" class="like" />
+                    <div class="checkmark">
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="outline"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="filled"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        class="celebrate"
+                        width="100"
+                        height="100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <polygon points="10,10 20,20" class="poly"></polygon>
+                        <polygon points="10,50 20,50" class="poly"></polygon>
+                        <polygon points="20,80 30,70" class="poly"></polygon>
+                        <polygon points="90,10 80,20" class="poly"></polygon>
+                        <polygon points="90,50 80,50" class="poly"></polygon>
+                        <polygon points="80,80 70,70" class="poly"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5 mb-5">
+          <div class="col-lg-3 col-md-8 col-sm-10 col-12 mt-2">
+            <div class="card b-radius p-1">
+              <img
+                src="img/bg-circle4.svg"
+                class="bg-color2 b-radius"
+                alt="..."
+              />
+              <img src="img/jaffari.svg" class="card-circle" alt="" />
+              <div class="text-center mt-5">
+                <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                  Haider Jaffri
+                </h3>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-12 ms-2"
+                >
+                  UX/UI Designer</span
+                >
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Location.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-15"
+                    >Barcelona</span
+                  >
+                </div>
+                <div>
+                  <img src="img/teacher.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Star.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-12 yellow"
+                    >5.0</span
+                  ><span class="font-Helvetica font-14"> (12)</span>
+                </div>
+                <div>
+                  <img src="img/briefcase.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex align-items-center mt-3 mb-2 p-2">
+                <button class="btn-purple w-75">Hire</button>
+                <button type="button" class="save-boton font-12 ms-3">
+                  <div class="con-like">
+                    <input title="like" type="checkbox" class="like" />
+                    <div class="checkmark">
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="outline"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="filled"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        class="celebrate"
+                        width="100"
+                        height="100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <polygon points="10,10 20,20" class="poly"></polygon>
+                        <polygon points="10,50 20,50" class="poly"></polygon>
+                        <polygon points="20,80 30,70" class="poly"></polygon>
+                        <polygon points="90,10 80,20" class="poly"></polygon>
+                        <polygon points="90,50 80,50" class="poly"></polygon>
+                        <polygon points="80,80 70,70" class="poly"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-8 col-sm-10 col-12 mt-2">
+            <div class="card b-radius p-1">
+              <img
+                src="img/bg-circle4.svg"
+                class="bg-color2 b-radius"
+                alt="..."
+              />
+              <img src="img/jaffari.svg" class="card-circle" alt="" />
+              <div class="text-center mt-5">
+                <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                  Haider Jaffri
+                </h3>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-12 ms-2"
+                >
+                  UX/UI Designer</span
+                >
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Location.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-15"
+                    >Barcelona</span
+                  >
+                </div>
+                <div>
+                  <img src="img/teacher.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Star.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-12 yellow"
+                    >5.0</span
+                  ><span class="font-Helvetica font-14"> (12)</span>
+                </div>
+                <div>
+                  <img src="img/briefcase.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex align-items-center mt-3 mb-2 p-2">
+                <button class="btn-purple w-75">Hire</button>
+                <button type="button" class="save-boton font-12 ms-3">
+                  <div class="con-like">
+                    <input title="like" type="checkbox" class="like" />
+                    <div class="checkmark">
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="outline"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="filled"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        class="celebrate"
+                        width="100"
+                        height="100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <polygon points="10,10 20,20" class="poly"></polygon>
+                        <polygon points="10,50 20,50" class="poly"></polygon>
+                        <polygon points="20,80 30,70" class="poly"></polygon>
+                        <polygon points="90,10 80,20" class="poly"></polygon>
+                        <polygon points="90,50 80,50" class="poly"></polygon>
+                        <polygon points="80,80 70,70" class="poly"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-8 col-sm-10 col-12 mt-2">
+            <div class="card b-radius p-1">
+              <img
+                src="img/bg-circle4.svg"
+                class="bg-color2 b-radius"
+                alt="..."
+              />
+              <img src="img/jaffari.svg" class="card-circle" alt="" />
+              <div class="text-center mt-5">
+                <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                  Haider Jaffri
+                </h3>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-12 ms-2"
+                >
+                  UX/UI Designer</span
+                >
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Location.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-15"
+                    >Barcelona</span
+                  >
+                </div>
+                <div>
+                  <img src="img/teacher.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Star.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-12 yellow"
+                    >5.0</span
+                  ><span class="font-Helvetica font-14"> (12)</span>
+                </div>
+                <div>
+                  <img src="img/briefcase.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex align-items-center mt-3 mb-2 p-2">
+                <button class="btn-purple w-75">Hire</button>
+                <button type="button" class="save-boton font-12 ms-3">
+                  <div class="con-like">
+                    <input title="like" type="checkbox" class="like" />
+                    <div class="checkmark">
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="outline"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="filled"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        class="celebrate"
+                        width="100"
+                        height="100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <polygon points="10,10 20,20" class="poly"></polygon>
+                        <polygon points="10,50 20,50" class="poly"></polygon>
+                        <polygon points="20,80 30,70" class="poly"></polygon>
+                        <polygon points="90,10 80,20" class="poly"></polygon>
+                        <polygon points="90,50 80,50" class="poly"></polygon>
+                        <polygon points="80,80 70,70" class="poly"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-8 col-sm-10 col-12 mt-2">
+            <div class="card b-radius p-1">
+              <img
+                src="img/bg-circle4.svg"
+                class="bg-color2 b-radius"
+                alt="..."
+              />
+              <img src="img/jaffari.svg" class="card-circle" alt="" />
+              <div class="text-center mt-5">
+                <h3 class="font-Helvetica weight-700 font-25 mt-2 mb-0">
+                  Haider Jaffri
+                </h3>
+                <img src="img/teacher.svg" alt="" /><span
+                  class="font-Helvetica font-12 ms-2"
+                >
+                  UX/UI Designer</span
+                >
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Location.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-15"
+                    >Barcelona</span
+                  >
+                </div>
+                <div>
+                  <img src="img/teacher.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <div>
+                  <img src="img/Star.svg" alt="" /><span
+                    class="font-Helvetica ms-2 font-12 yellow"
+                    >5.0</span
+                  ><span class="font-Helvetica font-14"> (12)</span>
+                </div>
+                <div>
+                  <img src="img/briefcase.svg" alt="" /><span
+                    class="font-Helvetica font-15 ms-2"
+                  >
+                    3+ Years</span
+                  >
+                </div>
+              </div>
+              <div class="d-flex align-items-center mt-3 mb-2 p-2">
+                <button class="btn-purple w-75">Hire</button>
+                <button type="button" class="save-boton font-12 ms-3">
+                  <div class="con-like">
+                    <input title="like" type="checkbox" class="like" />
+                    <div class="checkmark">
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="outline"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        viewBox="0 0 24 24"
+                        class="filled"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"
+                        ></path>
+                      </svg>
+                      <svg
+                        class="celebrate"
+                        width="100"
+                        height="100"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <polygon points="10,10 20,20" class="poly"></polygon>
+                        <polygon points="10,50 20,50" class="poly"></polygon>
+                        <polygon points="20,80 30,70" class="poly"></polygon>
+                        <polygon points="90,10 80,20" class="poly"></polygon>
+                        <polygon points="90,50 80,50" class="poly"></polygon>
+                        <polygon points="80,80 70,70" class="poly"></polygon>
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="button" class="pruple loading-btn">
+          <span class="me-2"><img src="img/loading.svg" alt="" /></span> Loading
+        </button>
+      </div>
+    </div>
+
+    <!-- -------footer------ -->
+    <div class="container-fluid bg-color3">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-2 col-md-6 col-sm-6 col-12 gray mt-5">
+            <h5 class="font-Bold-Ivy">Services</h5>
+            <div class="font-Helvetica font-14 mt-4">
+              <p>Graphics & Design</p>
+              <p>Digital Marketing</p>
+              <p>Writing & Translation</p>
+              <p>Video & Animation</p>
+              <p>Music & Audio</p>
+              <p>Programming & Tech</p>
+              <p>Data</p>
+              <p>Business</p>
+              <p>Lifestyle</p>
+              <p>Photograpghy</p>
+              <p>End-to-End Projects</p>
+              <p>Sitemap</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 col-12 gray mt-5">
+            <h5 class="font-Bold-Ivy">About</h5>
+            <div class="font-Helvetica mt-4 font-14">
+              <p>Careers</p>
+              <p>Press & News</p>
+              <p>Partnerships</p>
+              <p>Privacy Policy</p>
+              <p>Terms of Service</p>
+              <p>Intellectual Property</p>
+              <p>Claims</p>
+              <p>Investor Relations</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 col-12 gray mt-5">
+            <h5 class="font-Bold-Ivy">Company</h5>
+            <div class="font-Helvetica font-14 mt-4 ms-2">
+              <p>Find Freelancers</p>
+              <p>Find Talent</p>
+              <p>Why Medulla</p>
+              <p>Signup</p>
+              <p>Signin</p>
+              <p>Try for free</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 col-12 gray mt-5 position-relative"
+          >
+            <div class="mb-auto">
+              <h5 class="font-regular ms-3">
+                SIGN UP CONNECT WITH OUR NEWS LETTER
+              </h5>
+              <p class="gray ms-3">
+                We respect your privacy, so we never share your info.
+              </p>
+              <div class="input-group mb-3 ms-3">
+                <input
+                  type="text"
+                  class="form-control border-0"
+                  placeholder="Enter your email"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon3"
+                  style="height: 55px"
+                />
+                <button
+                  class="btn btn-outline-secondary border-0"
+                  type="button"
+                  id="button-addon3"
+                >
+                  <span><img src="img/arrow-down.svg" alt="" /></span>
+                </button>
+              </div>
+              <div class="ms-3">
+                <i class="fa-brands fa-facebook-f purple-box"></i>
+                <i class="fa-brands fa-instagram purple-box"></i>
+                <i class="fa-brands fa-linkedin-in purple-box"></i>
+                <i class="fa-brands fa-twitter purple-box"></i>
+              </div>
+            </div>
+            <div class="d-flex foot">
+              <img src="img/medulla.svg" class="" alt="" />
+              <p class="font-Helvetica font-14 mt-5">
+                © Medulla International Ltd. 2023 | All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+      integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(".responsive").slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3.5,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+
+    <script>
+      $(".filterContainer").hide();
+      // $('document').ready(function(){
+      function searchFilter() {
+        $(".filterContainer").show();
+        $(".searchbarButtons").hide();
+      }
+      // });
+    </script>
+  </body>
+</html>
